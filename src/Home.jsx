@@ -1,13 +1,15 @@
+import Link from '/components/Link.js'
+
 export default () => {
   return (
-    <div>
+    <div className="m-2">
       <h1>Home</h1>
       <ul>
         <li>
-          <a href="/hello/world">hello world</a>
+          <Link href="/hello/world">Hello World Link</Link>
         </li>
         <li>
-          <a href="/hello/you">hello you</a>
+          <Link href="/hello/you">Hello You Link</Link>
         </li>
       </ul>
     </div>
