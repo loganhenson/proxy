@@ -1,4 +1,4 @@
-import Link from '/components/Link.js'
+import Link from "/components/Link.js";
 
 export default ({ name }) => {
   return (
@@ -10,5 +10,5 @@ export default ({ name }) => {
         </li>
       </ul>
     </div>
-  )
-}
+  );
+};

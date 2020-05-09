@@ -2,7 +2,7 @@ export default ({ href, children }) => {
   const onClick = (e) => {
     e.preventDefault();
     visit(href);
-  }
+  };
   return (
     <a
       href={href}
@@ -11,5 +11,5 @@ export default ({ href, children }) => {
     >
       {children}
     </a>
-  )
-}
+  );
+};
